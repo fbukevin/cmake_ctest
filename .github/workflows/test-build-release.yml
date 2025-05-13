@@ -61,7 +61,7 @@ jobs:
     - name: Test
       working-directory: ${{github.workspace}}/build
       shell: bash
-      run: ctest -C ${{ matrix.build_type }} --verbose
+      run: ctest -C ${{ matrix.build_type }} --verbose --output-on-failure --rerun-failed
 
     - name: Build
       working-directory: ${{github.workspace}}/build
