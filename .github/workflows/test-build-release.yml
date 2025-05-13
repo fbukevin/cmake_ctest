@@ -89,7 +89,7 @@ jobs:
       run: mkdir -p releases
       
     - name: Download All Artifacts
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         path: releases
     
