@@ -5,3 +5,4 @@ build/hello_app
 */*.c.o.d
 */*.c.o
 */*.out
+.DS_Store
