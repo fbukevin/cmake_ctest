@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/veck.hsiao/Desktop/CMake/hello_ctest/build/cmake_install.cmake",
+		"/Users/veck.hsiao/Desktop/CMake/hello_ctest/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

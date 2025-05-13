@@ -1,0 +1,25 @@
+Start testing: May 13 16:35 CST
+----------------------------------------------------------
+1/1 Testing: HelloTest
+1/1 Test: HelloTest
+Command: "/Users/veck.hsiao/Desktop/CMake/hello_ctest/build/tests/test_hello"
+Directory: /Users/veck.hsiao/Desktop/CMake/hello_ctest/build/tests
+"HelloTest" start time: May 13 16:35 CST
+Output:
+----------------------------------------------------------
+Running hello_lib tests...
+Test 1: Got greeting: Hello, World!
+Test 1 passed!
+Test 2: Got greeting with empty input: Hello, Guest!
+Test 2 passed!
+All tests passed!
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[All tests passed!]
+"HelloTest" end time: May 13 16:35 CST
+"HelloTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 13 16:35 CST

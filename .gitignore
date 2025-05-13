@@ -1,0 +1,5 @@
+*/*.a
+build/hello_app
+*/*.bin
+*/*.c.o
+*/*.c.o.d

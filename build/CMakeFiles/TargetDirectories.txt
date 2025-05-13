@@ -1,0 +1,9 @@
+/Users/veck.hsiao/Desktop/CMake/hello_ctest/build/CMakeFiles/hello_lib.dir
+/Users/veck.hsiao/Desktop/CMake/hello_ctest/build/CMakeFiles/hello_app.dir
+/Users/veck.hsiao/Desktop/CMake/hello_ctest/build/CMakeFiles/test.dir
+/Users/veck.hsiao/Desktop/CMake/hello_ctest/build/CMakeFiles/edit_cache.dir
+/Users/veck.hsiao/Desktop/CMake/hello_ctest/build/CMakeFiles/rebuild_cache.dir
+/Users/veck.hsiao/Desktop/CMake/hello_ctest/build/tests/CMakeFiles/test_hello.dir
+/Users/veck.hsiao/Desktop/CMake/hello_ctest/build/tests/CMakeFiles/test.dir
+/Users/veck.hsiao/Desktop/CMake/hello_ctest/build/tests/CMakeFiles/edit_cache.dir
+/Users/veck.hsiao/Desktop/CMake/hello_ctest/build/tests/CMakeFiles/rebuild_cache.dir
