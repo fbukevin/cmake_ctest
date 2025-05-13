@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 4.0.2)
+cmake_minimum_required(VERSION 4.0.0)
 
 # Add test executable
 add_executable(test_hello test_hello.c)

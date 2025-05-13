@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 4.0.2)
+cmake_minimum_required(VERSION 4.0.0)
 project(HelloProject C)
 
 # Enable testing
