@@ -57,16 +57,17 @@ jobs:
       working-directory: ${{github.workspace}}/build
       shell: bash
       run: cmake $GITHUB_WORKSPACE -G "${{ matrix.cmake_generator }}" -DCMAKE_BUILD_TYPE=${{ matrix.build_type }}
-      
-    - name: Test
-      working-directory: ${{github.workspace}}/build
-      shell: bash
-      run: ctest -C ${{ matrix.build_type }} --verbose --output-on-failure --rerun-failed
 
+    # Should build binary first then run tests.
     - name: Build
       working-directory: ${{github.workspace}}/build
       shell: bash
       run: cmake --build . --config ${{ matrix.build_type }}
+
+    - name: Test
+      working-directory: ${{github.workspace}}/build
+      shell: bash
+      run: ctest -C ${{ matrix.build_type }} --verbose --output-on-failure --rerun-failed
 
     - name: Package Executable
       shell: bash
