@@ -6,3 +6,13 @@ build/hello_app
 */*.c.o
 */*.out
 .DS_Store
+
+build/CMakeFiles/hello_lib.dir/compiler_depend.internal
+
+*.o
+
+*.internal
+
+build/tests/test_hello
+
+*.make
